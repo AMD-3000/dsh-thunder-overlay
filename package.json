@@ -1,6 +1,6 @@
 {
   "name": "dsh-thunder-overlay",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH Web GUI plugin: a full-frame white title-card that pops when a session starts working, naming what the agent is doing (user message, busy, tool calls, completion), with a settings page.",
   "type": "module",
   "main": "lib/index.js",
