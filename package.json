@@ -43,5 +43,13 @@
     "client-plugin",
     "title-card"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/AMD-3000/dsh-thunder-overlay#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMD-3000/dsh-thunder-overlay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AMD-3000/dsh-thunder-overlay/issues"
+  }
 }

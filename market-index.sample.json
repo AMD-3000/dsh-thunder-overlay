@@ -23,8 +23,8 @@
         "zh-cn": "Web GUI 的全屏大白字：用户发消息、智能体忙碌、工具调用、完成工作时各弹一记。每类触发独立开关、文案可改；背景可毛玻璃或纯色；自带设置页。"
       },
       "author": "dsh-thunder-overlay contributors",
-      "homepage": "https://github.com/your-name/dsh-thunder-overlay",
-      "repository": { "url": "https://github.com/your-name/dsh-thunder-overlay" },
+      "homepage": "https://github.com/AMD-3000/dsh-thunder-overlay",
+      "repository": { "url": "https://github.com/AMD-3000/dsh-thunder-overlay" },
       "metadata": {
         "category": "ui",
         "keywords": ["overlay", "title-card", "ui", "control"],
