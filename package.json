@@ -15,7 +15,8 @@
     "README.md",
     "INSTALL.md",
     "LICENSE",
-    "THIRD_PARTY.md"
+    "THIRD_PARTY.md",
+    "OFL-NotoSansSC.txt"
   ],
   "dsh": {
     "bundle": {
