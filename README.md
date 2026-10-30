@@ -6,6 +6,11 @@ DSH Web GUI 插件：**会话在干活时，整帧砸下一记大白字**——�
 - 状态源：`ctx.uiSession.sessionStatus` + 会话事件流（`user/message`、`tool/call`）
 - 纯视觉：`pointer-events: none`，不拦点击、不改任何业务状态
 
+<p align="center">
+  <img src="images/preview-start.png" width="48%" alt="开始挑战" />
+  <img src="images/preview-run.png" width="48%" alt="执行命令" />
+</p>
+
 ## 触发逻辑
 
 1. **用户发消息**（新的 `user/message`）→ 弹「开始挑战」
