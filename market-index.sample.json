@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "title": { "en": "DSH Community Plugins", "zh-cn": "DSH 社区插件" },
+  "description": {
+    "en": "A community index for DeepSeek Harness plugins.",
+    "zh-cn": "DeepSeek Harness 社区插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "en": "Interface", "zh-cn": "界面" } }
+    },
+    "labels": {
+      "open-source": { "title": { "en": "Open source", "zh-cn": "开源" } }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-thunder-overlay",
+      "title": { "en": "Thunder Overlay", "zh-cn": "雷霆大白字" },
+      "description": {
+        "en": "Full-frame white title-card for the Web GUI: pops on a user message, when the agent gets busy, on tool calls, and on completion. Each trigger has its own switch and editable text; frosted-blur or solid backdrop; a settings page is included.",
+        "zh-cn": "Web GUI 的全屏大白字：用户发消息、智能体忙碌、工具调用、完成工作时各弹一记。每类触发独立开关、文案可改；背景可毛玻璃或纯色；自带设置页。"
+      },
+      "author": "dsh-thunder-overlay contributors",
+      "homepage": "https://github.com/your-name/dsh-thunder-overlay",
+      "repository": { "url": "https://github.com/your-name/dsh-thunder-overlay" },
+      "metadata": {
+        "category": "ui",
+        "keywords": ["overlay", "title-card", "ui", "control"],
+        "labels": ["open-source"],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793342400,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.1-rc.2" }
+        }
+      ]
+    }
+  ]
+}

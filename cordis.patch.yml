@@ -1,0 +1,6 @@
+# dsh-thunder-overlay bundle patch: insert the (empty) host half.
+# The visible effect lives entirely in lib/client.js, discovered through
+# package.json -> dsh.client.
+- insert:
+    - id: thunder-overlay
+      name: dsh-thunder-overlay
