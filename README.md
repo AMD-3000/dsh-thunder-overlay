@@ -83,12 +83,16 @@ lib/client.js       # 浏览器半：全部实现（手写 lazy-CJS，无需编�
 
 ## 安装
 
-见 [INSTALL.md](INSTALL.md)。最省事的是让对方 agent 执行：
+让目标机器上的 agent 直接执行：
 
 ```
 plugin_manager install_bundle
-  target: "file:/绝对路径/dsh-thunder-overlay-0.1.0.tgz"
+  target: "github:AMD-3000/dsh-thunder-overlay"
 ```
+
+它会拉取仓库、装进当前 profile 并写入 `dsh.profile.bundles`。装完刷新 Web GUI，入口在 **设置 → 雷霆大白字**。
+
+手工等价操作：在 profile 目录 `pnpm add github:AMD-3000/dsh-thunder-overlay`，把 `dsh-thunder-overlay` 加进 `dsh.profile.bundles`，重启引擎。
 
 ## 许可证
 

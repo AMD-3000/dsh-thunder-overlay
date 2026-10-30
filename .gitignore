@@ -4,3 +4,6 @@ assets/
 *.zip
 .DS_Store
 .*.mjs
+# 只在本机维护，不进线上仓库
+INSTALL.md
+market-index.sample.json
